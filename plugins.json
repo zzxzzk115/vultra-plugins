@@ -1,0 +1,21 @@
+﻿{
+  "schemaVersion": 1,
+  "plugins": [
+    {
+      "id": "com.vultra.examples.hello",
+      "name": "Hello",
+      "version": "0.1.0",
+      "repository": "https://github.com/zzxzzk115/vultra-plugin-hello",
+      "source": { "type": "git", "url": "https://github.com/zzxzzk115/vultra-plugin-hello.git", "ref": "v0.1.0" },
+      "description": "Pure Lua plugin example."
+    },
+    {
+      "id": "com.vultra.dlss",
+      "name": "Streamline Upscaler",
+      "version": "0.1.0",
+      "repository": "https://github.com/zzxzzk115/vultra-plugin-streamline",
+      "source": { "type": "git", "url": "https://github.com/zzxzzk115/vultra-plugin-streamline.git", "ref": "v0.1.0" },
+      "description": "NVIDIA Streamline / DLSS upscaler plugin."
+    }
+  ]
+}
