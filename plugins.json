@@ -1,20 +1,40 @@
 ﻿{
   "schemaVersion": 1,
+  "kind": "vultra.pluginCatalog",
+  "name": "Vultra Plugins",
+  "repository": "https://github.com/zzxzzk115/vultra-plugins",
+  "defaultInstallRoot": "<asset-root>/plugins",
   "plugins": [
     {
       "id": "com.vultra.examples.hello",
       "name": "Hello",
       "version": "0.1.0",
+      "author": "Vultra",
       "repository": "https://github.com/zzxzzk115/vultra-plugin-hello",
-      "source": { "type": "git", "url": "https://github.com/zzxzzk115/vultra-plugin-hello.git", "ref": "v0.1.0" },
+      "readme": "https://github.com/zzxzzk115/vultra-plugin-hello/blob/main/README.md",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zzxzzk115/vultra-plugin-hello.git",
+        "ref": "v0.1.0"
+      },
+      "capabilities": ["lua"],
+      "platforms": ["windows", "linux", "macos"],
       "description": "Pure Lua plugin example."
     },
     {
       "id": "com.vultra.dlss",
       "name": "Streamline Upscaler",
       "version": "0.1.0",
+      "author": "Vultra",
       "repository": "https://github.com/zzxzzk115/vultra-plugin-streamline",
-      "source": { "type": "git", "url": "https://github.com/zzxzzk115/vultra-plugin-streamline.git", "ref": "v0.1.0" },
+      "readme": "https://github.com/zzxzzk115/vultra-plugin-streamline/blob/main/README.md",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/zzxzzk115/vultra-plugin-streamline.git",
+        "ref": "v0.1.0"
+      },
+      "capabilities": ["native", "lua", "render_pass", "upscaler"],
+      "platforms": ["windows"],
       "description": "NVIDIA Streamline / DLSS upscaler plugin."
     }
   ]
