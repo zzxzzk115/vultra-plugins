@@ -23,6 +23,7 @@
       "versions": [
         {
           "version": "0.1.0",
+          "notes": "Initial release.",
           "source": {
             "type": "git",
             "url": "https://github.com/zzxzzk115/vultra-plugin-hello.git",
@@ -40,34 +41,16 @@
       "capabilities": ["native", "lua", "render_pass", "upscaler"],
       "platforms": ["windows"],
       "description": "NVIDIA Streamline / DLSS upscaler plugin. Streamline runtime DLLs are bundled; no environment configuration needed.",
-      "version": "0.2.1",
+      "version": "0.1.0",
       "source": {
         "type": "git",
         "url": "https://github.com/zzxzzk115/vultra-plugin-streamline.git",
-        "ref": "v0.2.1"
+        "ref": "v0.1.0"
       },
       "versions": [
         {
-          "version": "0.2.1",
-          "notes": "Streamline runtime resolves from the plugin root (engine-provided via vultraSetPluginRoot); env vars are build-time only.",
-          "source": {
-            "type": "git",
-            "url": "https://github.com/zzxzzk115/vultra-plugin-streamline.git",
-            "ref": "v0.2.1"
-          }
-        },
-        {
-          "version": "0.2.0",
-          "notes": "Streamline runtime resolves from the plugin root; env vars are build-time only.",
-          "source": {
-            "type": "git",
-            "url": "https://github.com/zzxzzk115/vultra-plugin-streamline.git",
-            "ref": "v0.2.0"
-          }
-        },
-        {
           "version": "0.1.0",
-          "notes": "Initial release. Requires VULTRA_DLSS_STREAMLINE_BIN at runtime.",
+          "notes": "Initial release. Streamline runtime resolves from the plugin root; environment variables are build-time only.",
           "source": {
             "type": "git",
             "url": "https://github.com/zzxzzk115/vultra-plugin-streamline.git",
