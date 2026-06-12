@@ -11,9 +11,9 @@
       "author": "Vultra",
       "repository": "https://github.com/zzxzzk115/vultra-plugin-hello",
       "readme": "https://github.com/zzxzzk115/vultra-plugin-hello/blob/main/README.md",
-      "capabilities": ["lua"],
+      "capabilities": ["native", "lua"],
       "platforms": ["windows", "linux", "macos"],
-      "description": "Pure Lua plugin example.",
+      "description": "Minimal native C++ + Lua plugin example exposing helloFromCpp() and helloFromLua().",
       "version": "0.1.0",
       "source": {
         "type": "git",
@@ -23,7 +23,7 @@
       "versions": [
         {
           "version": "0.1.0",
-          "notes": "Initial release.",
+          "notes": "Initial release with native C++ and pure-Lua hello bindings.",
           "source": {
             "type": "git",
             "url": "https://github.com/zzxzzk115/vultra-plugin-hello.git",
